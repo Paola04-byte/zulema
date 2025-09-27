@@ -1,21 +1,24 @@
+# Crear un diccionario con información personal de Paola
 informacion_personal = {
-    "nombre": "María García",
-    "edad": 29,
+    "nombre": "Paola Unup",
+    "edad": 28,
     "ciudad": "Quito",
-    "profesion": "Analista de Sistemas"
+    "profesion": "Analista de Datos"
 }
 
-# Modificar ciudad
+# Modificar la ciudad
 informacion_personal["ciudad"] = "Guayaquil"
 
-# Actualizar/asegurar profesión
+# Actualizar la profesión
 informacion_personal["profesion"] = "Ingeniera de Software"
 
-# Agregar teléfono si no existe
+# Verificar si la clave 'telefono' existe y agregarla si no
 if "telefono" not in informacion_personal:
-    informacion_personal["telefono"] = "+593-99-123-4567"
+    informacion_personal["telefono"] = "+593-99-987-6543"  # número ficticio
 
-# Eliminar edad
+# Eliminar la clave 'edad'
 informacion_personal.pop("edad", None)
 
-# El diccionario final queda en la variable 'informacion_personal' sin mostrarse
+# Imprimir el diccionario final
+print("Diccionario final:")
+print(informacion_personal)
