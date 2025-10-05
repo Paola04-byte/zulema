@@ -1,0 +1,3 @@
+Nota 1: Hoy aprendí a manejar archivos de texto en Python.
+Nota 2: Es importante cerrar los archivos después de usarlos.
+Nota 3: El uso de 'with open()' facilita el manejo seguro de archivos.
